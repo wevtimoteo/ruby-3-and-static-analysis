@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    minitest (5.14.2)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    rbs (0.14.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  parser
+  rbs
+
+BUNDLED WITH
+   2.2.0.rc.2
