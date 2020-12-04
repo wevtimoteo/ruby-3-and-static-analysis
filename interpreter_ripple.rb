@@ -1,6 +1,6 @@
 require 'ripper'
 
-code_snippet = "event == 'TDC' ? 'Bem-vindo' : 'Bem-vindo também!'"
+code_snippet = "event == 'RubySummit Brasil' ? 'Bem-vindo' : 'Bem-vindo também!'"
 
 puts '--- Token'
 p Ripper.tokenize(code_snippet)

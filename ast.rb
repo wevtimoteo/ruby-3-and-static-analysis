@@ -1,7 +1,7 @@
 require 'parser/current'
 
 code = <<-RUBY
-  event == 'TDC' ? 'Bem-vindo' : 'Bem-vindo também!'
+  event == 'RubySummit Brasil' ? 'Bem-vindo' : 'Bem-vindo também!'
 RUBY
 
 p Parser::CurrentRuby.parse(code)

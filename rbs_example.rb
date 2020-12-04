@@ -8,7 +8,7 @@ module ChatApp
     end
 
     def post(channel, from:)
-      true
+      'Received!'
     end
   end
 end
